@@ -12,7 +12,7 @@ let minutesPerChore = 10
 let numberOfChores = chores.count
 let choresTime = numberOfChores * minutesPerChore
 
-//ループ
+//ループ 配列内のアイテムに順番にアクセス
 let friends = ["Name", "Name2", "Name3", "Name4", "Name5"]
 for friend in friends {
     let sparklyFriend = "✨\(friend)✨"
@@ -49,3 +49,7 @@ numbers
 //すべてのアイテムを削除
 numbers.removeAll()
 numbers
+
+//配列の置換
+var flavors = ["Chocolate", "Vanilla", "Strawberry", "Pistachio", "Rocky Road"]
+flavors[0] = "Fudge Ripple"
